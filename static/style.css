@@ -1,0 +1,35 @@
+body{
+    font-family:Arial, sans-serif;
+    background:#f8f9fa;
+}
+
+.hero{
+    background:linear-gradient(to right,#4f46e5,#2563eb);
+    color:white;
+    padding:80px 0;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+footer{
+    margin-top:40px;
+}
+
+img{
+    max-width:100%;
+}
+.progress{
+    height:20px;
+}
+
+.navbar-brand{
+    font-size:24px;
+}

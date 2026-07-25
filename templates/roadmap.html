@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Roadmap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body class="bg-light">
+
+<nav class="navbar navbar-dark bg-primary">
+<div class="container">
+
+<a class="navbar-brand fw-bold" href="/dashboard">
+<i class="fa-solid fa-road"></i>
+Career Compass AI
+</a>
+
+</div>
+</nav>
+
+<div class="container mt-5">
+
+<div class="card shadow-lg">
+
+<div class="card-body">
+
+<h2 class="text-center text-primary">
+<i class="fa-solid fa-map"></i>
+Personalized Learning Roadmap
+</h2>
+
+<p class="text-center text-muted">
+Follow this roadmap to become a successful {{career}}.
+</p>
+
+<div class="timeline mt-4">
+
+<div class="card mb-3 border-primary">
+<div class="card-body">
+<h5>📘 Week 1</h5>
+<p>Learn Python Programming Fundamentals.</p>
+</div>
+</div>
+
+<div class="card mb-3 border-success">
+<div class="card-body">
+<h5>📗 Week 2</h5>
+<p>Master Git, GitHub and Version Control.</p>
+</div>
+</div>
+
+<div class="card mb-3 border-warning">
+<div class="card-body">
+<h5>📙 Week 3</h5>
+<p>Learn Data Structures & Algorithms.</p>
+</div>
+</div>
+
+<div class="card mb-3 border-danger">
+<div class="card-body">
+<h5>📕 Week 4</h5>
+<p>Study Machine Learning Fundamentals.</p>
+</div>
+</div>
+
+<div class="card mb-3 border-info">
+<div class="card-body">
+<h5>📒 Week 5</h5>
+<p>Build your first AI Project.</p>
+</div>
+</div>
+
+<div class="card mb-3 border-secondary">
+<div class="card-body">
+<h5>📓 Week 6</h5>
+<p>Deploy your project on Render or IBM Cloud.</p>
+</div>
+</div>
+
+</div>
+
+<hr>
+
+<h3 class="text-success">
+Recommended Certifications
+</h3>
+
+<ul class="list-group">
+
+<li class="list-group-item">
+IBM SkillsBuild - AI Fundamentals
+</li>
+
+<li class="list-group-item">
+Google AI Essentials
+</li>
+
+<li class="list-group-item">
+Python for Data Science
+</li>
+
+<li class="list-group-item">
+AWS Cloud Practitioner
+</li>
+
+<li class="list-group-item">
+Git & GitHub
+</li>
+
+</ul>
+
+<hr>
+
+<h3 class="text-primary">
+Career Milestones
+</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card text-center shadow">
+
+<div class="card-body">
+
+<h4>1️⃣</h4>
+
+<h5>Beginner</h5>
+
+<p>Learn programming and problem solving.</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card text-center shadow">
+
+<div class="card-body">
+
+<h4>2️⃣</h4>
+
+<h5>Intermediate</h5>
+
+<p>Complete projects and internships.</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card text-center shadow">
+
+<div class="card-body">
+
+<h4>3️⃣</h4>
+
+<h5>Professional</h5>
+
+<p>Get placed in your dream company.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="text-center mt-5">
+
+<a href="/dashboard" class="btn btn-primary">
+Back to Dashboard
+</a>
+
+<a href="/interview" class="btn btn-success">
+Practice Interview
+</a>
+
+<a href="/recommendation" class="btn btn-warning text-white">
+Career Recommendation
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
