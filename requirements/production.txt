@@ -1,0 +1,5 @@
+-r base.txt
+
+Brotli==1.0.4
+gunicorn==19.7.1
+psycopg2-binary>=2.9.9, 
