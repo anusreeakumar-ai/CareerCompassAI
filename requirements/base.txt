@@ -1,8 +1,0 @@
-django-environ==0.4.5
-django-extensions==2.1.0
-django-url-checks==0.1.0
-Django>=4.2
-ipython>=8.0
-djangorestframework>=3.14.0
-pytz==2018.5
-whitenoise==4.1
